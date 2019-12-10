@@ -28,9 +28,8 @@ variable "internet_gateway_display_name" {
 }
 
 variable "subnet_display_name" {
-    default = "Insert Subnet Display Name Here"
+    default = "Default Subnet"
 }
-//TO WORK ON: only accepts ad-1 as valid
 data "oci_identity_availability_domain" "ad" {
   compartment_id = "${var.tenancy_ocid}"
   ad_number = 2
@@ -40,6 +39,6 @@ data "oci_identity_availability_domain" "ad" {
 variable "bucket_name" {
     default = "py4dev"
 }
-variable "bucket_namespace"{
-    default = "axaxwzdju8tg"
+variable "obj_store_namespace"{
+    default = "default_value"
 }
