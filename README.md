@@ -1,6 +1,6 @@
 # terraform-OCI
 
-This folder is designed to accompany the Oracle Python4ATP HOL.
+This folder is designed to accompany the [Oracle Python4ATP HOL](https://github.com/edercervantes/learning-library/tree/master/workshops/python4atp).
 
 **Instructions for running the folder**
 
