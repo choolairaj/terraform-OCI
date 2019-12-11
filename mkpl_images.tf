@@ -39,8 +39,6 @@ resource "oci_core_app_catalog_subscription" "mp_image_subscription" {
     create = "20m"
   }
 }
-/* This data source provides the list of App Catalog Subscriptions in Oracle Cloud Infrastructure Core service.
-Lists subscriptions for a compartment. */
 # Gets the partner image subscription
 data "oci_core_app_catalog_subscriptions" "CloudDevImg_catalog_subscriptions" {
   #Required

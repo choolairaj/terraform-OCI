@@ -6,7 +6,7 @@ variable "private_key_path" {}
 variable "region" {}
 
 
-//ederpersonalprojects
+//connection credentials
 provider "oci" {
   version = ">= 3.0.0"
   tenancy_ocid = "${var.tenancy_ocid}"
