@@ -23,6 +23,6 @@ This folder is designed to accompany the [Oracle Python4ATP HOL](https://github.
 
 -For debugging, see the following resources:
 
-    [Installing Terraform](https://learn.hashicorp.com/terraform/getting-started/install.html)
-    [FAQ for the Oracle Cloud Infrastructure Terraform provider](https://www.terraform.io/docs/providers/oci/guides/faq.html)
-    [Oracle Cloud Infrastructure Provider](https://www.terraform.io/docs/providers/oci/index.html)
+[Installing Terraform](https://learn.hashicorp.com/terraform/getting-started/install.html)
+[FAQ for the Oracle Cloud Infrastructure Terraform provider](https://www.terraform.io/docs/providers/oci/guides/faq.html)
+[Oracle Cloud Infrastructure Provider](https://www.terraform.io/docs/providers/oci/index.html)
