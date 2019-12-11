@@ -1,10 +1,3 @@
-#Local variables pointing to the Marketplace catalog resource
-#Eg. Modify accordingly to your Application/Listing
-/* locals {
-  mp_listing_id               = "${var.mp_listing_id}" //REALLY NEED THE LISTING ID OF ORACLE IMAGES
-  mp_listing_resource_id      = "${data.oci_core_app_catalog_listing.CloudDevImg_catalog_listing.listing_id}"
-  mp_listing_resource_version = "${data.oci_core_app_catalog_listing.test_CloudDevImg_catalog_listing_resource_versions.listing_resource_version}"
-} */
 
 # Gets the partner image listing
 data "oci_core_app_catalog_listings" "CloudDevImg_catalog_listings" {
